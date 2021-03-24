@@ -32,7 +32,7 @@ class MyAdapter(val context: Context, val result: List<Result>) :
     override fun getItemCount(): Int {
         return result.size
     }
-
+    
     inner class MyHolder(val v: View) : RecyclerView.ViewHolder(v) {
         var url = ""
 
